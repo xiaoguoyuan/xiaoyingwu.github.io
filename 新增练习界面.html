@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        新增练习界面
+    </title>
+</head> 
+<!--返回上一页-->
+<a href="#" onclick="javascript:history.back(-1);">返回到上一页</a>
+<!--以下一行可以去除链接下面的横线-->
+<style type="text/css">a {text-decoration: none}</style>
+
+<html>
+    <hade>
+<!--"背景颜色background-color:PowderBlue;
+        字体font-family:'Times New Roman', Times, serif;
+        字色color:blue;
+        大小font-size:150px"
+        居中text-align:center-->
+    <body style="background-color:PowderBlue">
+    <h1 styie="font-family:Times New Roman, Times, serif;">
+    <p style="font-size:50px;text-align:center;color:Violet">
+<!--显示已有内容，隐藏部分内容，鼠标移至显示内容处，隐藏内容即可显示-->          
+    <abbr title="隐藏内容">鼠标移动显示</abbr><br>
+    </p>
+    </h1>
+<!--所输入内容反向输出-->
+    <bdo dir="rtl">
+        内容反向输出（文字右至左输出）
+    </bdo>
+<!--引用内容自动成段落,首行缩进-->
+    <blockquote>中间引用内容会自动换行，成段落</blockquote>
+<!--所写内容增加删除线-->
+<del>增加删除线</del> 
+<!--所写内容增加下划线-->
+    <ins>增加下划线</ins>        
+    </body> 
+    <br>
+</hade>
+<!--下两行是调节长和宽-->
+<!--con是增加控制按键-->
+<!--aut是加速视频播放速度-->
+<!--type是选择视频播放类型-->
+    <video
+    width="320"
+    height="240"
+    controls="controls"
+    autoplay="autoplay">
+    <source src="./视频1.mp4" type="video/mp4">
+    </video>
+<hr>
+<!--链接引用-->
+<body>
+    <body>
+    <p>文字链接：
+    <a href="www.w3school.com.cn">练习网址</a>
+    </p>
+    <!--图片链接-->
+    <p>图片链接:
+    <a href="www.w3school.com.cn/"><img border="0" src="./按钮1.jpg"/></a></a>
+    </p>
+    <!--链接的属性设置为 "_blank"，该链接会在新窗口中打开-->
+    <p>直接打开链接：
+    <a href="http://www.w3school.com.cn/" target="_blank">Visit W3School</a>
+    </p>
+    </body>
+<!--如果把链接的 target 属性设置为 "_blank"，该链接会在新窗口中打开-->
+    <body>
+    <a href="http://www.w3school.com.cn/" target="_blank">Visit W3School!</a>
+    </body>
+<!--创建链接（目录）连接到命名段落，同一页面不同位置-->
+    <body>
+    <p>
+    <a href="#C1">查看 Chapter 1</a><br>
+    <a href="#C2">查看 Chapter 2</a><br>
+    <a href="#C3">查看 Chapter 3</a><br>
+    <a href="#C4">查看 Chapter 4</a><br>
+    <a href="#C5">查看 Chapter 5</a><br>
+    <a href="#C6">查看 Chapter 6</a><br>
+    </p>
+    <h2><a name="C1">Chapter 1</a></h2>
+    <p>This chapter explains ba bla bla</p>
+    <h2><a name="C2">Chapter 2</a></h2>
+    <p>This chapter explains ba bla bla</p>
+    <h2><a name="C3">Chapter 3</a></h2>
+    <p>This chapter explains ba bla bla</p>
+    <h2><a name="C4">Chapter 4</a></h2>
+    <p>This chapter explains ba bla bla</p>
+    <h2><a name="C5">Chapter 5</a></h2>
+    <p>This chapter explains ba bla bla</p>
+    <h2><a name="C6">Chapter 6</a></h2>
+    <p>This chapter explains ba bla bla</p>
+    </body>
+<!--链接连接到当前页面，不新建页面-->
+    <body>
+    <a href="./www.w3school.com.cn" target="_top">请点击这里！</a> 
+    </body>
+<!--邮件链接1-->
+    <body>
+    <p><a href="mailto:3042608318@qq.com">发送邮件</a></p>
+    </body>
+<!--邮件链接2mailto:是发送对象，cc=是抄送对象，bcc=是密送对象，subject=是主题内容，body=是发送内容，中间用%20是空格-->
+    <body>
+    <p>
+    <a href="mailto:someone@microsoft.com?cc=someoneelse@microsoft.com&bcc=andsomeoneelse2@microsoft.com&subject=Summer%20Party&body=You%20are%20invited%20to%20a%20big%20summer%20party!">发送邮件！</a>
+    </p>
+    </body>
+</body>
+<!--图片引用-->
+<body>
+<!--<img图像定义标签 src源属性="url图像地址引用">-->
+        <img src="url" />
+<!--<alt="Big Boat"当图像不能显示是有引号中内容替换图像，可显示时不出现 />-->
+        <img src="boat.gif" alt="图片不可显示内容为替换的图片名称">
+<!--背景图片body background=添加背景图片gif/jpg ，background-size调整背景尺寸，如果图像小于页面，图像会进行重复:100% 100%-->
+        <body style=text-align:center background="/i/eg_background.jpg" style="background-size:100% 100%">
+        <p>图像 <img src ="./动态图1.gif"> 在文本中，未设置</p>
+        <p>图像 <img src="./动态图1.gif" align="bottom"> 在文本中上</p>
+        <p>图像 <img src ="./动态图1.gif" align="middle"> 在文本中部</p>
+        <p>图像 <img src ="./动态图1.gif" align="top"> 在文本中下</p>
+        </body>
+<!--align 图片位置页面靠左="left" 
+    大小width="90" height="90" 
+    替代文字alt="向左转"
+    图片加底宽度border="2">-->
+        <img src ="./动态图1.gif" 
+        align ="right" 
+        width="90" height="90" 
+        alt="向左转"
+        border="2">
+</body>
+</html>
