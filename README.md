@@ -1,5 +1,3 @@
-<!--以下内容为定义网页-->
-<!DOCTYPE html>
 <html>
 <body background="./图片3.jpg" style="background-size:100% 100%;">
 </body>
@@ -62,6 +60,3 @@
 <!--<table><table border="500"></table>定义网页表格属性-->
 <body>
     <table><table border="100"></table>
-</body>
-</body>
-</html>
