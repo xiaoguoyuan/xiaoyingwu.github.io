@@ -1,17 +1,6 @@
-# xiaoyingwu.github.io
 <!--以下内容为定义网页-->
 <!DOCTYPE html>
-<!--下一行为去除链接下划线-->
-<style type="text/css">a {text-decoration: none}</style>
-<!--以下内容为网页开始-->
 <html>
-    <!--以下内容为网页标题-->
-    <head>
-        <title>
-            练习主页
-        </title>
-    </head> 
-    <!--以下内容为制作网页背景-->
 <body background="./图片3.jpg" style="background-size:100% 100%;">
 </body>
     <!--以下内容为标题链接-->
